@@ -20,7 +20,8 @@ html {
  * Remove the margin in all browsers.
  */
 
-body {
+body,
+p {
   margin: 0;
 }
 
@@ -174,7 +175,8 @@ textarea {
  */
 
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -184,7 +186,8 @@ input { /* 1 */
  */
 
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 

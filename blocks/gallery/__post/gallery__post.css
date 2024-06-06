@@ -1,0 +1,7 @@
+.gallery__post {
+  border-radius: 10px;
+  width: 282px;
+  background-color: var(--white);
+  font-family: "Inter", Arial, sans-serif;
+  color: var(--black);
+}

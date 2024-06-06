@@ -1,0 +1,12 @@
+.info__name {
+  font-weight: 500;
+  line-height: 48px;
+  font-size: 42px;
+}
+
+@media screen and (max-width: 920px) {
+  .info__name {
+    line-height: 33px;
+    font-size: 27px;
+  }
+}

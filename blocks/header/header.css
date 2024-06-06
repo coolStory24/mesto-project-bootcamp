@@ -1,14 +1,14 @@
 .header {
-  box-sizing: border-box;
-  font-size: 0;
   max-width: 880px;
-  padding: 45px 0 0;
-  width: 100%;
-  border-bottom: 1px solid var(--dark-grey);
+  height: 74px;
+  margin: 45px auto 40px;
+  border-bottom: 1px solid var(--transparent-grey);
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 920px) {
   .header {
-    padding: 28px 0 0;
+    height: 56px;
+    margin-top: 28px;
+    padding-left: 27px;
   }
 }

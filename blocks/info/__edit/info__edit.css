@@ -1,0 +1,22 @@
+.info__edit {
+  height: 24px;
+  width: 24px;
+  margin-left: 12px;
+  background-color: var(--black);
+  background-image: url(../../../images/profile/edit/edit.svg);
+  cursor: pointer;
+  border: none;
+  transition: 0.5s opacity;
+}
+
+.info__edit:hover {
+  opacity: 60%;
+  transition: 0.5s opacity;
+}
+
+@media screen and (max-width: 920px) {
+  .info__edit {
+    height: 18px;
+    width: 18px;
+  }
+}

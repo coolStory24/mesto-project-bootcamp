@@ -1,0 +1,15 @@
+.post__like-image {
+  height: 19px;
+  width: 22px;
+  background-image: url(../../../images/gallery/like/like.svg);
+  background-repeat: no-repeat;
+  margin-left: 30px;
+  flex-shrink: 0;
+  cursor: pointer;
+  transition: 0.5s opacity;
+}
+
+.post__like-image:hover {
+  opacity: 60%;
+  transition: 0.5s opacity;
+}
