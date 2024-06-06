@@ -3,19 +3,17 @@
   height: 32px;
   width: 32px;
   background-color: rgba(0, 0, 0, 0);
-  right: -32px;
-  top: -32px;
+  right: -37px;
+  top: -40px;
   padding: 0px;
   border: 0px;
   background-image: url(../../../images/popup/__close/close.svg);
-  transition: opacity, transform 0.5s;
+  transition: opacity 0.5s;
   cursor: pointer;
 }
 
 .popup__close:hover {
   opacity: 60%;
-  transition: opacity, transform 0.5s;
-  transform: rotate(90deg);
 }
 
 @media screen and (max-width: 920px) {

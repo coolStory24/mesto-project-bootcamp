@@ -11,11 +11,11 @@
   font-family: "Inter", Arial, sans-serif;
   cursor: pointer;
   transition: 0.5s opacity;
+  margin-top: 50px;
 }
 
 .popup__button:hover {
   opacity: 80%;
-  transition: 0.5s opacity;
 }
 
 @media screen and (max-width: 920px) {
@@ -23,5 +23,6 @@
     height: 46px;
     font-size: 14px;
     line-height: 17px;
+    margin-top: 46px;
   }
 }

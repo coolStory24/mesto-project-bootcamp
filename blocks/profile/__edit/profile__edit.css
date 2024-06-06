@@ -1,4 +1,4 @@
-.info__edit {
+.profile__edit {
   height: 24px;
   width: 24px;
   margin-left: 12px;
@@ -9,13 +9,13 @@
   transition: 0.5s opacity;
 }
 
-.info__edit:hover {
+.profile__edit:hover {
   opacity: 60%;
   transition: 0.5s opacity;
 }
 
 @media screen and (max-width: 920px) {
-  .info__edit {
+  .profile__edit {
     height: 18px;
     width: 18px;
   }

@@ -7,8 +7,8 @@
 }
 
 @media screen and (max-width: 920px) {
-  .header__logo {
+  .footer__copy {
     font-size: 14px;
-    line-height: 19px;
+    line-height: 17px;
   }
 }

@@ -1,14 +1,14 @@
 .header {
   max-width: 880px;
-  height: 74px;
   margin: 45px auto 40px;
+  padding-bottom: 40px;
   border-bottom: 1px solid var(--transparent-grey);
 }
 
 @media screen and (max-width: 920px) {
   .header {
-    height: 56px;
     margin-top: 28px;
+    padding-bottom: 30px;
     padding-left: 27px;
   }
 }

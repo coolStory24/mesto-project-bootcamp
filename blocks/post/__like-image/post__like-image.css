@@ -7,9 +7,9 @@
   flex-shrink: 0;
   cursor: pointer;
   transition: 0.5s opacity;
+  border: 0px;
 }
 
 .post__like-image:hover {
-  opacity: 60%;
-  transition: 0.5s opacity;
+  opacity: 50%;
 }
